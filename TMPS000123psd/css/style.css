@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+background-color: aquamarine;
+}
+.container{
+width:1200px;
+margin: 0 auto;
+
+}
+.banner{
+    text-align: center;
+
+}
+.padd{
+   background-color:#333333;
+  padding: 30px 0px;
+}
+.first-image{
+
+    background-image: url(/images/wallpaperwide.png);
+    height: 405px;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.first-image h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0px;
+    color: #ffffff;
+    /* border-bottom: 1px solid whitesmoke; */
+    /* border-bottom:2px solid green; */
+}
+.first-image h1{
+    position: relative;
+}
+.first-image h1::after{
+    cursor: pointer;
+    color: #ffffff;
+    border-bottom: 1px solid white;
+    position: absolute;
+    width: 380px;
+    left: 38%;
+    right: 40%;
+    content: "";
+    display: block;
+    clear: both;
+}
+.first-image span:hover{
+    cursor: pointer;
+    color: #ffffff;
+    border-bottom: 1px solid white;
+}
+.first-image span{
+color: #ffffff;
+    padding: 10px;
+
+}
+.heading p{
+    position: relative;
+}
+.heading p::after{
+    border-bottom: 2px solid green;
+    width: 355px;
+    position: absolute;
+    left: 38%;
+    right: 40%;
+    content: "";
+    display: block;
+    clear: both;
+    
+    
+}
+.new ion-icon{
+width: 100%;
+padding: 10px 0px 15px  0px ;
+/* align-items: center; */
+
+
+}
+.new{
+    padding: 80px 0px;
+}
+.new ion-icon{
+    background-color:red;
+    width: 40px;
+    height: 20px;
+    border-radius: 15px;
+    
+    
+}
+.head-section{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    
+}
+.first-head{
+    font-size: 19px;
+    margin-top: 10px;
+
+}
+.nav-bar{
+list-style: none;
+
+}
+.nav-bar a{
+    text-decoration: none;
+    margin-left: 30px;
+    justify-items: center;
+    font-size: 20px;
+}
+.nav-bar a:hover{
+    cursor: pointer;
+    color: crimson;
+}
+.padd{
+padding: 20px 0px;
+background-color: #333333;
+}
+.first-image img{
+
+    height: 423px;
+    width: 100%
+   
+}
+.heading{
+    margin-bottom: 28px;
+}
+/* .first-image h1:hover{
+    border-bottom: 2px solid green;
+    
+} */
+.heading  h1{
+    margin: 30px 91px 0px 10px;
+    text-align: center;
+   
+}
+
+.heading p{
+    font-size: 24spx;
+    text-align: center;
+    word-spacing: 2px;
+    margin: 10px 83px 0px 0px;   
+}
+.imgpart{
+    display: flex;
+    border-left: 2px solid  #637f83 ;
+    
+    
+
+}
+.img1,.img2,.img3,.img4{
+    border-right:2px solid  #637f83 ;
+}
+.img1 img{
+    padding-bottom: 20px;
+}
+.imgpart .img1{
+    width: 54%;
+    /* padding: 0px 139px 0px 0; */
+}
+.img1 p{
+    font-size: 21px;
+    padding: 0px 0px 25px;
+}
+.img1 span{
+    font-size: 18px;
+    line-height: 25px;
+}
+.img2 img{
+    padding-bottom: 20px;
+}
+.img2 p{
+    font-size: 21px;
+    padding: 0px 0px 25px;
+}
+.img2 span{
+    font-size: 18px;
+    line-height: 25px; 
+}
+.img2{
+    /* width: 38%; */
+}
+.img3{
+    /* width: 40%; */
+}
+.img3 img{
+    padding-bottom: 10px;
+}
+.img3 p{
+    font-size: 21px;
+    padding: 0px 0px 25px; 
+}
+.img3 span{
+    font-size: 18px;
+    line-height: 25px;  
+}
+.img4{
+    /* width: 40%; */
+}
+.img4 img{
+    padding-bottom: 10px;
+}
+.img4 p{
+    font-size: 21px;
+    padding: 0px 0px 25px;
+}
+.img4 span{
+    font-size: 18px;
+    line-height: 25px; 
+}
+.img1 button{
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.img2 button{
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.img3 button{
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.img4 button{
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.sec{
+    text-align: center;
+    margin-top: 63px;
+}
+.sec p{
+    font-size: 22px;
+}
+.sec ion-icon{
+
+    background-color: aquamarine;
+    border-radius: 15px;
+    width: 12px;
+    height: 15px;
+    color: red;
+}
+.inner{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.smartperson img{
+  /* padding: 0px 20px; */
+  width: 144%;
+  height: 194px;
+}
+.smartnessperson img{
+    /* padding: 0px 20px; */
+    width: 150%;
+    height: 194px;
+}
+.hardworkperson img{
+    /* padding: 0px 20px; */
+    width: 145%;
+    height: 194px;
+}
+.hardworperson img{
+    /* padding: 0px 20px;   */
+    width: 99%;
+    height: 194px;
+}
+.hard{
+    margin-top: 30px;
+    color: blue;
+    margin-bottom: 50px;
+    margin-left: 455px;
+    text-align: center;
+}
+.hard h5{
+    background-color: brown;
+    width: 142px;
+    border-radius: 9px;
+    height: 28px;
+    padding-top: 5px;
+}
+.fi-image img{
+    width: 83px;
+    height: 105px;
+}
+.laptop{
+    display: flex;
+    margin-bottom: 25px;
+}
+.side h4{
+    color: red;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+.side p{
+    width: 409px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+.side p span{
+    color:blue;
+}
+.fii{
+    /* margin-left: 100px; */
+    /* display: flex; */
+}
+.fii img{
+    width: 92px;
+    height: 113px;
+}
+.fii h4{
+    color: red;
+    margin-left: 5px;
+   
+}
+.fii p{
+    width: 409px;
+    line-height: 28px;
+    margin-left: 5px;
+    margin-top: 10px;
+   
+}
+.fii p span{
+    color:blue;
+}
+.sidee{
+    display: flex;
+}
+
+.laptoop{
+
+    display: flex;
+    margin-bottom: 50px;
+}
+.footer-first{
+
+    text-align: center;
+    justify-content: space-between;
+}
+.f{
+
+    text-align:center;
+    margin-bottom:50px ;
+}
+.f p{
+    margin-bottom: 50px;
+}
+.rrr{
+    display:flex;
+}
+.rr {
+
+
+    display: flex;
+}
+.rr h4{
+    margin-left: 20px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+.rr ion-icon{
+
+    width: 50px;
+    height:50px;
+}
+.rrrr{
+margin-left: 20px;
+
+
+}
+.ooo{
+ 
+    display:flex; 
+}
+
+
+ 
+    
+    .oo {
+        margin-top: 20px;
+        background-color: black;
+        padding: 22px 0px;
+        width: 380px;
+        border-radius: 6px;
+        margin-bottom: 50px;
+    }
+  .gg {
+
+    margin: 18px 2px 3px 13px;
+    background-color: red;
+    width: 93px;
+    height: 53px;
+    border-radius: 9px;
+  }
+ .gg h4{
+    margin-top: 14px;
+    color: aliceblue;
+    text-align: center;
+ }
+ .AA{
+
+    display: flex;
+    margin-left: 30px;
+ }
+ .aa ion-icon{
+
+    width:120px;
+    height: 80px;
+    color: red;
+ }
+ .aaa{
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+ }
+ .aaa p{
+
+    line-height: 24px;
+    width: 466px;
+ }
+ footer{
+    background-color: #637f83;
+  
+ }
+.aaa{
+    margin-bottom: 50px;
+}
+.totall{
+    display: flex;
+    margin: 40px 0px;
+}
+.bb ion-icon{
+
+    width: 80px;
+    height:80px;
+    color:red;
+}
+.kk{
+    margin: 20px 23px;
+    line-height: 22px;
+}
+.totalll{
+    display: flex;
+}
+.t{
+    margin: 40px 0px 0px 117px;
+    display: flex;
+}
+.cc ion-icon{
+
+    width: 80px;
+    height:80px;
+    color:red;  
+}
+.uu{
+    margin: 42px 16px 5px 195px;
+    display: flex;
+}
+.ccc ion-icon{
+    width: 80px;
+    height:80px;
+    color:red; 
+}
+.kkk{
+    line-height: 22px;  
+    margin: 20px 23px; 
+}
+.last{
+    background-color: #637f83;
+    padding: 30px 0px;
+}
+.lastt p{
+    color: #ffffff;
+}
+/* .imgpart{
+
+    border-top: #637f83;
+    border-left: #637f83;
+
+} */
+
+
+ 
